@@ -47,4 +47,9 @@ To create this package you need to have a directory by name of your choice to pu
 
 For pyproject.toml the same file can be used for your own app to specify the build backend and the required build tools for the Python project. As to README.md, this version is different from the one shown in pypi.org, therefore, modify it accordingly. Lastly, the license is important to help the owner specify legal aspects of app. For a package accessible to publicly you can use the LICENSE of this package (only change name and date on top) while for more specific cases use [choosealicense.com](https://choosealicense.com/).
 
+When all set, in this directory, run:
+```
+python -m build
+```
+Then a folder named dist would be created. Now make sure you have open accounts on test.pypi.org and pypi.org.
 

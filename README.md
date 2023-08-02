@@ -43,4 +43,8 @@ sender.twillio(account_sid="your account_sid from Twillio", auth_token="your aut
 
 ### How to create this package
 
-To create this package you need to have a directory by name of your choice to put __init__.py and your python files in it. 
+To create this package you need to have a directory by name of your choice to put __init__.py and your python files in it. Considering the accompanying files, we need setup.cfg for package configuration. You can simply modify the available version on this repository according to your own package. 
+
+For pyproject.toml the same file can be used for your own app to specify the build backend and the required build tools for the Python project. As to README.md, this version is different from the one shown in pypi.org, therefore, modify it accordingly. Lastly, the license is important to help the owner specify legal aspects of app. For a package accessible to publicly you can use the LICENSE of this package (only change name and date on top) while for more specific cases use [choosealicense.com](https://choosealicense.com/).
+
+

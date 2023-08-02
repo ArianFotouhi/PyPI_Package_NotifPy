@@ -41,6 +41,10 @@ sender = SMSNotif.SMS_notif(body = "it's me Hi", recipient_phone_number= '+1...'
 sender.twillio(account_sid="your account_sid from Twillio", auth_token="your auth_token from Twillio", twilio_phone_number="your number from Twillio")
 ```
 
+
+
+
+
 ### How to create this package
 
 To create this package, you need to establish a directory of your choice (e.g., NotifPy) where you should place the __init__.py file and your Python files. It is worth noting that creating a directory like NotifPy.egg_info is unnecessary as it will be generated automatically. The package configuration can be facilitated with the setup.cfg file. You may adjust the version available on this repository to suit your package requirements.

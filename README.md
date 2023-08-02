@@ -43,18 +43,18 @@ sender.twillio(account_sid="your account_sid from Twillio", auth_token="your aut
 
 ### How to create this package
 
-To create this package you need to have a directory by name of your choice to put __init__.py and your python files in it. Considering the accompanying files, we need setup.cfg for package configuration. You can simply modify the available version on this repository according to your own package. 
+To create this package, you need to establish a directory of your choice (e.g., NotifPy) where you should place the __init__.py file and your Python files. It is worth noting that creating a directory like NotifPy.egg_info is unnecessary as it will be generated automatically. The package configuration can be facilitated with the setup.cfg file. You may adjust the version available on this repository to suit your package requirements.
 
-For pyproject.toml the same file can be used for your own app to specify the build backend and the required build tools for the Python project. As to README.md, this version is different from the one shown in pypi.org, therefore, modify it accordingly. Lastly, the license is important to help the owner specify legal aspects of app. For a package accessible to publicly you can use the LICENSE of this package (only change name and date on top) while for more specific cases use [choosealicense.com](https://choosealicense.com/).
+In addition, the pyproject.toml file serves to specify the build backend and the essential build tools for the Python project. For the README.md file, it is important to recognize that this version may differ from the one displayed on pypi.org; therefore, it should be modified accordingly. Lastly, the license holds significance in clarifying the legal aspects of the app. If your package is intended for public accessibility, you can utilize the LICENSE of this package (with minor modifications such as changing the name and date). Alternatively, for more specific cases, you can refer to choosealicense.com.
 
-When all set, in this directory, run:
+Once all configurations are set, in this directory, execute the following command:
+
 ```
 python -m build
 ```
-Then a folder named dist would be created. Now make sure you have open accounts on [test.pypi.org](https://test.pypi.org/) and [pypi.org](https://pypi.org/).
+Subsequently, a folder named "dist" will be generated. Ensure that you have active accounts on both [test.pypi.org](https://test.pypi.org/) and [pypi.org](https://pypi.org/).
 
-Now first it is recommended to test your package on [test.pypi.org](https://test.pypi.org/) to assure the performance then upload it on [pypi.org](https://pypi.org/). To upload use the below steps:
-
+It is advisable to begin by testing your package on [test.pypi.org](https://test.pypi.org/) to assure its performance before proceeding to upload it on [pypi.org](https://pypi.org/). The following steps should be followed for the upload process:
 ```
 python -m twine upload --repository testpypi dist/*
 ```

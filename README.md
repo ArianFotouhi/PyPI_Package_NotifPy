@@ -51,5 +51,5 @@ When all set, in this directory, run:
 ```
 python -m build
 ```
-Then a folder named dist would be created. Now make sure you have open accounts on test.pypi.org and pypi.org.
+Then a folder named dist would be created. Now make sure you have open accounts on [test.pypi.org ](https://test.pypi.org/)https://test.pypi.org and [pypi.org.](https://pypi.org/)https://pypi.org.
 

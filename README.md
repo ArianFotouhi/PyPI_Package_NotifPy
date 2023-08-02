@@ -1,4 +1,5 @@
 ## NotifPy 
+Available on https://pypi.org/project/NotifPy/
 
 NotifPy is an all-in-one Python package designed to enable users to effortlessly send email and SMS notifications or alerts to designated email addresses and phone numbers. With NotifPy, integrating robust email and SMS functionalities into applications becomes seamless, facilitating prompt communication with target audiences.
 
@@ -39,3 +40,7 @@ from NotifPy import SMSNotif
 sender = SMSNotif.SMS_notif(body = "it's me Hi", recipient_phone_number= '+1...')
 sender.twillio(account_sid="your account_sid from Twillio", auth_token="your auth_token from Twillio", twilio_phone_number="your number from Twillio")
 ```
+
+### How to create this package
+
+To create this package you need to have a directory by name of your choice to put __init__.py and your python files in it. 

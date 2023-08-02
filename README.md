@@ -54,7 +54,7 @@ In addition, the pyproject.toml file serves to specify the build backend and the
 Once all configurations are set, in this directory, execute the following command:
 
 ```
-python -m build
+py -m build
 ```
 Subsequently, a folder named "dist" will be generated. Ensure that you have active accounts on both [test.pypi.org](https://test.pypi.org/) and [pypi.org](https://pypi.org/).
 
